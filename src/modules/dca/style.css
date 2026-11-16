@@ -1,0 +1,18 @@
+.mod-dca-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.mod-dca-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.mod-dca-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}

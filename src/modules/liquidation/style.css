@@ -1,0 +1,28 @@
+.mod-liq-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.mod-liq-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.mod-liq-badge.long {
+  background: rgba(16, 185, 129, 0.16);
+  color: var(--success);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+.mod-liq-badge.short {
+  background: rgba(239, 68, 68, 0.16);
+  color: var(--danger);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+}
+.mod-liq-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
